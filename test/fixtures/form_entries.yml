@@ -5,19 +5,25 @@ one:
   contact: MyString
   service: MyString
   vehicle: MyString
+  registration: MyString
   cleaner: MyString
   share: MyString
+  share_percentage: 1
   price: 1.5
   p_m: MyString
   cashier: MyString
+  comments: MyString
 
 two:
   customer_name: MyString
   contact: MyString
   service: MyString
   vehicle: MyString
+  registration: MyString
   cleaner: MyString
   share: MyString
+  share_percentage: 1
   price: 1.5
   p_m: MyString
   cashier: MyString
+  comments: MyString
