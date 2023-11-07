@@ -39,6 +39,6 @@ class FormEntriesController < ApplicationController
     end
   
     def form_entry_params
-      params.require(:form_entry).permit(:customer_name, :contact, :service, :vehicle, :cleaner, :share, :price, :p_m, :cashier)
+      params.require(:form_entry).permit(:customer_name, :contact, :service, :vehicle, :registration, :cleaner, :share, :price, :share_percentage, :p_m, :cashier, :comments)
     end    
 end
